@@ -1,0 +1,4 @@
+-- Quest 4184: https://web.archive.org/web/20071103063417/http://wow.allakhazam.com/db/quest.html?wquest=4184
+UPDATE `locales_quest` 
+SET `Details_loc3` = 'Das sind schlimme Neuigkeiten, $N. Zu entdecken, dass unsere Todfeinde nicht mehr als Marionetten einer viel größeren Bedrohung sind, ist wahrlich entmutigend. Es ist unmöglich, dass Seenhain einen Angriff durch die Schwarzfelsorcs UND den schwarzen Drachenschwarm überleben könnte. Wenn Seenhain dieser Gefahr anheim fällt, dann fällt bald auch Dunkelhain, und was dann? Goldhain? Auch Sturmwind?$B$BIhr müsst diese Information unbedingt sofort Hochlord Bolvar Drachenwill in Sturmwind überbringen! Wenn dies nicht die Unterstützung Sturmwinds rechtfertigt, dann ist alles verloren.', `Objectives_loc3` = 'Reist nach Sturmwind und tragt Solomons Hilfegesuch dem Hochlord Bolvar Drachenwill vor.$B$BBolvar residiert in Burg Sturmwind.'
+WHERE `entry`= 4184;
